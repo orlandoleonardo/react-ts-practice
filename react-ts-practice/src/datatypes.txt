@@ -1,0 +1,26 @@
+//Datatypes
+let name: string;
+let age: number;
+let isStudent: boolean;
+let hobbies: string[];
+let role: [number, string] //tupla
+
+type Person = {
+  name : string;
+  age? : number;
+}
+let person: Person = {
+  name: "Leonardo"
+}
+
+let lotsOfPeople: Person[];
+
+let printName: (name: string) => void; //funcion
+
+//datatype any and unknown
+
+// function printName(name: string){
+//   console.log(name);
+// }
+
+// printName("Leo")
